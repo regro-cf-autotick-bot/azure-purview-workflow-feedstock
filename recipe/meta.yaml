@@ -1,13 +1,13 @@
 {% set name = "azure-purview-workflow" %}
-{% set version = "1.0.0b1" %}
+{% set version = "1.0.0b2" %}
 
 package:
   name: {{ name|lower }}
   version: {{ version }}
 
 source:
-  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/azure-purview-workflow-{{ version }}.zip
-  sha256: e55559a414e80b4e196ff3295b2c7ad2a2bbbb6502156631512297b7f694beb4
+  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/azure-purview-workflow-{{ version }}.tar.gz
+  sha256: 4ae589ee33ba310662d6d88568c352e732b1fc404bda2aff93a5688e67f79c56
 
 build:
   noarch: python
